@@ -18,35 +18,35 @@
             <div class="col-md-6">
                 <div class="card">
                     <div class="profile-header text-center">
-                        <h2>🎓 Welcome, <%= request.getAttribute("name") %>!</h2>
+                        <h2>Welcome, <%= request.getAttribute("name") %>!</h2>
                     </div>
                     <div class="card-body p-4">
                         <table class="table table-borderless">
                             <tbody>
                                 <tr>
-                                    <th class="text-muted">📛 Name</th>
+                                    <th class="text-muted">Name</th>
                                     <td class="fw-bold"><%= request.getAttribute("name") %></td>
                                 </tr>
                                 <tr>
-                                    <th class="text-muted">🆔 Student ID</th>
+                                    <th class="text-muted">Student ID</th>
                                     <td><%= request.getAttribute("studentId") %></td>
                                 </tr>
                                 <tr>
-                                    <th class="text-muted">📚 Program</th>
+                                    <th class="text-muted">Program</th>
                                     <td><%= request.getAttribute("program") %></td>
                                 </tr>
                                 <tr>
-                                    <th class="text-muted">📧 Email</th>
+                                    <th class="text-muted">Email</th>
                                     <td><%= request.getAttribute("email") %></td>
                                 </tr>
                                 <tr>
-                                    <th class="text-muted">⚽ Hobbies</th>
+                                    <th class="text-muted">Hobbies</th>
                                     <td><%= request.getAttribute("hobbies") %></td>
                                 </tr>
                             </tbody>
                         </table>
                         <hr>
-                        <h5 class="text-muted">🗣️ About Me</h5>
+                        <h5 class="text-muted">About Me</h5>
                         <p class="fst-italic">"<%= request.getAttribute("introduction") %>"</p>
                         
                         <div class="text-center mt-4">
